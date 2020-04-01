@@ -1,0 +1,13 @@
+2020-03-25 11:31:40.425  INFO 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : Starting SpringBootDay02ApplicationTests on LAPTOP-IDUVFM3P with PID 4644 (started by 19161 in D:\IdeaProjects\spring-boot-day02)
+2020-03-25 11:31:40.427 DEBUG 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-25 11:31:40.428  INFO 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : No active profile set, falling back to default profiles: default
+2020-03-25 11:31:41.653  INFO 4644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2b8baadc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-25 11:31:41.761  INFO 4644 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-03-25 11:31:42.226  INFO 4644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 11:31:42.710  INFO 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : Started SpringBootDay02ApplicationTests in 2.731 seconds (JVM running for 4.151)
+2020-03-25 11:31:43.027 TRACE 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : 这是trace
+2020-03-25 11:31:43.027 DEBUG 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : 这是debug
+2020-03-25 11:31:43.027  INFO 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : 这是info
+2020-03-25 11:31:43.028  WARN 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : 这是warn
+2020-03-25 11:31:43.028 ERROR 4644 --- [main] c.z.s.SpringBootDay02ApplicationTests    : 这是error
+2020-03-25 11:31:43.044  INFO 4644 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

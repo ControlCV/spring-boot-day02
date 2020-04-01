@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjw.springbootday02.dao.user.UserDao">
+
+    <resultMap id="BaseResultMap" type="com.zjw.springbootday02.entities.User">
+        <id column="username" jdbcType="VARCHAR" property="username" />
+        <result column="realname" jdbcType="VARCHAR" property="realname" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="email" jdbcType="DOUBLE" property="email" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        username,realname,password,email
+     </sql>
+
+    <!--查询用户密码及用户名-->
+    <select id="queryByUserName" resultMap="BaseResultMap">
+        select  <include refid="Base_Column_List" />
+        from t_user
+        where username=#{username} and password=#{password}
+    </select>
+
+
+
+</mapper>
